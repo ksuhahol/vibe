@@ -1,0 +1,17 @@
+body {
+    background-color: #E1B4AF;
+    padding: 20px;
+}
+
+.event-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+.services-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
