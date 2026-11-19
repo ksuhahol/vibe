@@ -1,0 +1,98 @@
+
+/* Общие настройки страницы */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff1e9;
+  color: #252b36;
+  margin: 0;
+  padding: 30px;
+}
+
+/* Основной блок отчёта */
+.report {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 1px solid #dce2eb;
+  border-radius: 12px;
+}
+
+/* Заголовки */
+h1,
+h2 {
+  color: #185953;
+}
+
+/* Блок со сводкой */
+.summary {
+  margin-bottom: 30px;
+}
+
+/* Карточки статистики */
+.summary-card {
+  display: inline-block;
+  vertical-align: top;
+  width: 38%;
+  min-height: 55px;
+  margin: 8px;
+  padding: 18px;
+  background-color: #b2e1df;
+   border: 1px solid #8bcac5;
+  border-radius: 8px;
+}
+
+/* Блок с результатами */
+.results {
+  margin-top: 25px;
+}
+
+/* Счётчик участников */
+#result-count {
+  color: #185953;
+  margin-top: 20px;
+}
+
+
+
+/* Список участников */
+.result-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Строки участников */
+.result-item {
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #b2e1df;
+  border: 1px solid #dce2eb;
+  border-radius: 8px;
+}
+
+/* Имена участников */
+.result-name {
+  display: inline-block;
+  min-width: 75px;
+  font-weight: bold;
+  color: #252b36;
+}
+
+/* Элементы формы */
+select,
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid #b8c5d8;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #f8a9dd;
+  color: #50334a;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f79bd5;
+}
